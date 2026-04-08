@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma Pal Srabanty | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <img src="myphoto.jpeg" alt="Suma Photo">
+        <h2>Suma Pal Srabanty</h2>
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+
+        <button id="darkModeBtn">🌙 Dark Mode</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <!-- Home -->
+        <section id="home">
+            <h1 id="typing"></h1>
+            <p class="subtittle"> Aspiring Web Developer & Java Programmer</p>
+            <button onclick="showMessage()">Hire Me</button>
+            
+            <a href="Suma_CV.pdf" download class="cv-btn">Download My CV</a>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>I am Suma Pal Srabanty, a passionate student developer who loves building websites and software
+                    projects.</p>
+                <p>I enjoy exploring new technologies, practicing coding, and building small projects as I continue learning.I am currently learning HTML, CSS, JavaScript, Java, C++, and C to create professional projects.</p>
+                <p>My goal is to become a skilled software developer and make impactful digital experiences.</p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="fill html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress">
+                    <div class="fill css"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress">
+                    <div class="fill js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Java</p>
+                <div class="progress">
+                    <div class="fill java"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>C++</p>
+                <div class="progress">
+                    <div class="fill cpp"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>C</p>
+                <div class="progress">
+                    <div class="fill c"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <h2>My Services</h2>
+            <div class="service-container">
+                <div class="service-card">
+                    <div class="icon">💻</div>
+                    <h3>Web Design</h3>
+                    <p>Modern and responsive website UI/UX design to make your brand shine online.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🖥️</div>
+                    <h3>Frontend Development</h3>
+                    <p>Interactive websites using HTML, CSS, and JavaScript for seamless user experiences.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📂</div>
+                    <h3>Java Projects</h3>
+                    <p>Desktop applications, database systems, and project solutions using Java & MySQL.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">⚡</div>
+                    <h3>Problem Solving</h3>
+                    <p>Algorithm and coding skills in C, C++, and Java to solve complex problems efficiently.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>IT Club Management System</h3>
+                    <p>Java + DBMS + MySQL project for student management.</p>
+                    <a href="https://github.com/suma-creator/IT-Club-Management-System" target="_blank">GitHub</a>
+                    <a href="https://github.com/suma-creator/IT-Club-Management-System" target="_blank">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>Responsive portfolio site built with HTML, CSS, JS.</p>
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+<section id="education">
+    <h2>Education</h2>
+    <div class="education-card">
+        <h3>BSc in Engineering in ICT</h3>
+        <p>Chandpur Science and Technology University (2023-2027)</p>
+    </div>
+    <div class="education-card">
+        <h3>HSC</h3>
+        <p>Govt. Tularam College Narayanganj (2020-2022) – GPA: 4.83</p>
+    </div>
+    <div class="education-card">
+        <h3>SSC</h3>
+        <p>Hatkhola High School Narayanganj (2020) – GPA: 5.00</p>
+    </div>
+</section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="card">
+                <p>Email: suma@example.com</p>
+                <p>GitHub: github.com/suma</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Back to top -->
+    <button id="topBtn" onclick="scrollTopPage()">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
