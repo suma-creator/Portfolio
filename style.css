@@ -323,6 +323,20 @@ body.dark-mode button {
     color: white;
 }
 
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(180deg, #a770ef, #fdb99b);
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+body.dark-mode footer {
+    background: #3a0a40;
+}
+
 /* Extra space below Home subtitle for Hire Me button */
 #home .cv-btn,
 #home button {
@@ -389,8 +403,83 @@ body.dark-mode button {
     transition: transform 0.3s; /* smooth hover effect */
 }
 
-.sidebar img:hover{
-    transform: scale(1.05); /* slight zoom on hover */
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8c1f0, #fcd5e8);
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #6a1b9a;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #a770ef;
+    box-shadow: 0 0 5px rgba(167, 112, 239, 0.5);
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #a770ef;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #9b59b6;
+}
+
+/* Dark mode for contact form */
+body.dark-mode .contact-form {
+    background: linear-gradient(135deg, #4e0f5f, #3a0a40);
+}
+
+body.dark-mode .contact-form label {
+    color: white;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+    background: #2a0a2a;
+    color: white;
+    border-color: #a770ef;
+}
+
+body.dark-mode .contact-form input:focus,
+body.dark-mode .contact-form textarea:focus {
+    border-color: #fdb99b;
+    box-shadow: 0 0 5px rgba(253, 185, 155, 0.5);
 }
 
 /* Sidebar links - subtle hover effect */
