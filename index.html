@@ -1,194 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suma Pal Srabanty | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-</head>
 
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
 <body>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <img src="myphoto.jpeg" alt="Suma Photo">
-        <h2>Suma Pal Srabanty</h2>
+   
+    <header class="navbar">
+        <div class="logo">Suma Pal Srabanty</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
+ 
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Suma Pal Srabanty</span></h1>
+            <h2>And I'm a <span id="typing"></span></h2>
 
-        <button id="darkModeBtn">🌙 Dark Mode</button>
-    </div>
-
-    <!-- Main Content -->
-    <div class="main">
-        <!-- Home -->
-        <section id="home">
-            <h1 id="typing"></h1>
-            <p class="subtittle"> Aspiring Web Developer & Java Programmer</p>
-            
-            <a href="Suma_CV.pdf" download class="cv-btn" style="color: #ff1493; background-color: transparent; padding: 10px 20px; text-decoration: none; border: 1px solid #ff1493; border-radius: 5px; font-weight: bold;">Download My CV</a>
-        </section>
-
-        <!-- About -->
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="card">
-                <p>I am Suma Pal Srabanty, a dedicated Computer Science student at Chandpur Science and Technology University, specializing in Information and Communication Technology (ICT). With a passion for web development and software engineering, I thrive on creating innovative digital solutions that bridge technology and user needs.</p>
-                <p>Currently advancing my expertise in HTML, CSS, JavaScript, Java, C++, and C, I am committed to continuous learning and applying cutting-edge technologies to build professional, scalable projects.  and determination to excel in the tech industry.</p>
-                <p>My goal is to become a skilled software developer, contributing to impactful digital experiences that drive innovation and solve real-world challenges.</p>
+            <div class="social-icons">
+                <a href="https://github.com/Suma-creator" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/suma.pal.5851" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/suma-pal-srabanty" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
-        </section>
 
-        <!-- Skills -->
-        <section id="skills">
-            <h2>My Skills</h2>
-            <div class="skill">
-                <p>HTML</p>
-                <div class="progress">
-                    <div class="fill html"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>CSS</p>
-                <div class="progress">
-                    <div class="fill css"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>JavaScript</p>
-                <div class="progress">
-                    <div class="fill js"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>Java</p>
-                <div class="progress">
-                    <div class="fill java"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>C++</p>
-                <div class="progress">
-                    <div class="fill cpp"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>C</p>
-                <div class="progress">
-                    <div class="fill c"></div>
-                </div>
-            </div>
-        </section>
+            <a href="Suma_CV.pdf" download class="cv-btn">Download CV</a>
+        </div>
 
-        <!-- Services -->
-        <section id="services">
-            <h2>My Services</h2>
-            <div class="service-container">
-                <div class="service-card">
-                    <div class="icon">💻</div>
-                    <h3>Web Design</h3>
-                    <p>Modern and responsive website UI/UX design to make your brand shine online.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon">🖥️</div>
-                    <h3>Frontend Development</h3>
-                    <p>Interactive websites using HTML, CSS, and JavaScript for seamless user experiences.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon">📂</div>
-                    <h3>Java Projects</h3>
-                    <p>Desktop applications, database systems, and project solutions using Java & MySQL.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon">⚡</div>
-                    <h3>Problem Solving</h3>
-                    <p>Algorithm and coding skills in C, C++, and Java to solve complex problems efficiently.</p>
-                </div>
+        <div class="hero-image">
+            <img src="myphoto.jpeg" alt="Suma Photo">
+        </div>
+    </section>
+
+   
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am Suma Pal Srabanty, a dedicated ICT student at Chandpur Science and Technology University with a passion for technology and innovation.
+            </p>
+            <p>
+                Currently advancing my expertise in HTML, CSS, JavaScript, Java, C++, and C.
+            </p>
+            <p>
+                My goal is to become a skilled software developer and build impactful digital solutions.
+            </p>
+        </div>
+    </section>
+
+    
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress"><div class="fill html"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress"><div class="fill css"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress"><div class="fill js"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>Java</p>
+            <div class="progress"><div class="fill java"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>C++</p>
+            <div class="progress"><div class="fill cpp"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>C</p>
+            <div class="progress"><div class="fill c"></div></div>
+        </div>
+    </section>
+
+   
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="service-container">
+
+            <div class="service-card">
+                <h3>Web Design</h3>
+                <p>Modern and responsive website UI/UX design.</p>
             </div>
-        </section>
 
-        <!-- Projects -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-container">
-                <div class="project-card">
-                    <h3>IT Club Management System</h3>
-                    <p>Java + DBMS + MySQL project for student management.</p>
-                    <a href="https://github.com/suma-creator/IT-Club-Management-System" target="_blank">GitHub</a>
-                    <a href="https://github.com/suma-creator/IT-Club-Management-System" target="_blank">Live Demo</a>
-                </div>
-                <div class="project-card">
-                    <h3>Portfolio Website</h3>
-                    <p>Responsive portfolio site built with HTML, CSS, JS.</p>
-                    <a href="https://github.com/suma-creator/Portfolio" target="_blank">GitHub</a>
-                    <a href="#" target="_blank">Live Demo</a>
-                </div>
+            <div class="service-card">
+                <h3>Frontend Development</h3>
+                <p>Interactive websites using HTML, CSS, and JavaScript.</p>
             </div>
-        </section>
 
-        <!-- Education -->
-<section id="education">
-    <h2>Education</h2>
-    <div class="education-card">
-        <h3>BSc in Engineering in ICT</h3>
-        <p>Chandpur Science and Technology University (2023-2027)</p>
-    </div>
-    <div class="education-card">
-        <h3>HSC</h3>
-        <p>Govt. Tularam College Narayanganj (2020-2022) – GPA: 4.83</p>
-    </div>
-    <div class="education-card">
-        <h3>SSC</h3>
-        <p>Hatkhola High School Narayanganj (2020) – GPA: 5.00</p>
-    </div>
-</section>
-
-        <!-- Contact -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="card">
-                <p>Email: <a href="mailto:sumapalsrabanty01@gmail.com">sumapalsrabanty01@gmail.com</a></p>
-                <p>GitHub: <a href="https://github.com/Suma-creator" target="_blank">github.com/Suma-creator</a></p>
-                <p>Facebook: <a href="https://www.facebook.com/suma.pal.5851" target="_blank">facebook.com/Suma Pal</a></p>
+            <div class="service-card">
+                <h3>Java Projects</h3>
+                <p>Desktop applications and DBMS solutions.</p>
             </div>
-            <form class="contact-form">
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required><br><br>
-                
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone"><br><br>
-                
-                <label for="subject">Email Subject:</label>
-                <input type="text" id="subject" name="subject" required><br><br>
-                
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" required></textarea><br><br>
-                
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
 
-        <!-- Footer -->
-        <footer>
-            <p>&copy; 2026 Suma Pal Srabanty. All rights reserved.</p>
-        </footer>
+            <div class="service-card">
+                <h3>Problem Solving</h3>
+                <p>Efficient algorithmic and coding solutions.</p>
+            </div>
 
-    </div>
+        </div>
+    </section>
 
-    <!-- Back to top -->
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>IT Club Management System</h3>
+                <p>Java + DBMS + MySQL project for student management.</p>
+                <a href="https://github.com/suma-creator/IT-Club-Management-System" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Responsive portfolio site built with HTML, CSS, JS.</p>
+                <a href="https://github.com/suma-creator/Portfolio" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Live Demo</a>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education-card">
+            <h3>BSc in Engineering in ICT</h3>
+            <p>Chandpur Science and Technology University (2023–2027)</p>
+        </div>
+
+        <div class="education-card">
+            <h3>HSC</h3>
+            <p>Govt. Tularam College Narayanganj – GPA: 4.83</p>
+        </div>
+
+        <div class="education-card">
+            <h3>SSC</h3>
+            <p>Hatkhola High School Narayanganj – GPA: 5.00</p>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <div class="card">
+            <p>Email: <a href="mailto:sumapalsrabanty01@gmail.com">sumapalsrabanty01@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Suma-creator" target="_blank">github.com/Suma-creator</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/suma.pal.5851" target="_blank">Facebook Profile</a></p>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+
+            <div class="input-box">
+                <input type="text" id="fullname" name="fullname" placeholder=" " required>
+                <label for="fullname">Full Name</label>
+            </div>
+
+            <div class="input-box">
+                <input type="email" id="email" name="_replyto" placeholder=" " required>
+                <label for="email">Email Address</label>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" id="phone" name="phone" placeholder=" ">
+                <label for="phone">Phone Number</label>
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="subject" name="subject" placeholder=" " required>
+                <label for="subject">Email Subject</label>
+            </div>
+
+            <div class="input-box">
+                <textarea id="message" name="message" placeholder=" " required></textarea>
+                <label for="message">Your Message</label>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+   
     <button id="topBtn" onclick="scrollTopPage()">↑</button>
 
     <script src="script.js"></script>
 </body>
-
 </html>
